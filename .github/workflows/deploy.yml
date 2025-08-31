@@ -18,7 +18,6 @@ env:
   AWS_PROFILE: "baseline-webpage"
   # Change if you would like to deploy elsewhere
   AWS_REGION: "ap-southeast-2"
-  BITBUCKET_BRANCH: ${{ github.ref_name }}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
